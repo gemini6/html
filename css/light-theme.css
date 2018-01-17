@@ -1,0 +1,186 @@
+/* light-theme.css */
+
+
+body {
+	background-color: #F7F7F7;
+	color: #9FACA3;
+} 
+
+hr {
+	background-color:#BBBBBB;
+}
+
+a:hover,
+a:link,
+a:active, 
+a:visited {
+	color: #9FACA3;
+}
+
+nav#top-nav {
+	background-color: #E3E3E3;
+}
+
+button[data-target="#top-nav-collapse"] {
+	background-color: #9FACA3;
+	color: #FFFFFF;
+	border-color: transparent;
+}
+
+button[data-target="#top-nav-collapse"]:hover,
+button[data-target="#top-nav-collapse"]:active {
+	color: #AC6E77;
+	border-color: #AC6E77;
+}
+
+nav#top-nav ul.navbar-nav {
+	background-color:  #313131;
+}
+
+nav#top-nav li.nav-item {
+	background-color: #2A2A2A;
+	border-color: transparent;
+}
+
+nav#top-nav li.nav-item:hover {
+	background-color: #3A3A3A;
+	border-color: #AC6E77;
+}
+
+nav#top-nav ul.navbar-nav li.divider {
+	color: #9FACA3;
+}
+
+nav#top-nav a.top-nav-link {
+	color: #AC6E77;
+}
+
+nav#top-nav a.top-nav-link:hover,
+nav#top-nav a.top-nav-link:active {
+	color: #F7F7F7;
+}
+
+nav#top-nav li.nav-item:hover a.top-nav-link {
+	color: #F7F7F7;
+}
+
+p.top-nav-lead {
+	color: #AC6E77 !important;
+}
+
+span.top-nav-link-icon {
+	color: #9FACA3;
+}
+
+nav#top-nav li.nav-item:hover span.top-nav-link-icon {
+	color: #7ff7f7;
+}
+
+h1#page-title {
+	color: #5f5f5f;
+}
+
+form#search-bar {
+	background-color: #AC6E77;
+}
+
+form#search-bar input#search-bar-input {
+	background-color: #FFFFFF;
+	color: #F7F7F7;
+}
+
+form#search-bar #search-btn {
+	background-color: #9FACA3;;
+	color: #9FACA3;
+}
+
+form#search-bar #search-btn:hover,
+form#search-bar #search-btn:focus,
+form#search-bar #search-btn:active {
+	background-color: #9FACA6;
+}
+
+.main-nav-row {
+	background-color: #dfdfdf;
+
+}
+
+.main-nav-row:hover {
+	background-color: #cfcfcf;
+}
+
+h2.main-nav-header {
+	color: #5f5f5f;
+}
+
+.main-nav-row:hover h2.main-nav-header {
+	color: #AC6E77;
+}
+
+span[class="fa fa-external-link"] {
+	color: #AC6a11;
+}
+
+span[class="fa fa-search"] {
+	color: #AC6a11;
+}
+
+h2.main-nav-header p.main-nav-lead {
+	color: #AC6E77;
+}
+
+.main-nav-row:hover p.main-nav-lead {
+	color: #AC6E77;
+}
+
+.main-nav-row:hover h2.main-nav-header span.header-icon {
+	color: #AC6E77;
+}
+
+.main-nav-links-container {
+	background-color: #f7f7f7;
+	border-color: transparent;
+}
+
+.main-nav-row:hover .main-nav-links-container {
+	background-color: #e3e3e3;
+	border-color: transparent;
+}
+
+a.main-nav-link {
+	border-color: #eeeeee;
+}
+
+.main-nav-row:hover a.main-nav-link {
+	color: #5f5f5f;
+	border-color: #eeeeee;
+}
+
+.main-nav-row:hover a.main-nav-link:hover,
+.main-nav-row:hover a.main-nav-link:active,
+.main-nav-row:hover a.main-nav-link:focus {
+	background-color: #AC6E77;
+	border-color: #4A4A4A;
+	color: #FFFFFF;
+}
+
+a.has-focus {
+	color: #3A3A3A !important; 
+}
+ 
+.main-nav-row:hover hr.medleft {
+	background-color: #AC6E77;
+}
+
+#footer-cta {
+	color: #AC6E77;
+}
+
+.footer-below {
+	background-color: #E3E3E3;
+	border-top-color: #4A4A4A;
+}
+
+.footer-below a.social-link:hover {
+	color: #AC6E77;
+}

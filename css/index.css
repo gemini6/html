@@ -1,16 +1,10 @@
 
 body {
-	/*font-family:"Helvetica, Open Sans, Ubuntu, Arial, sans-serif";*/
-	/*font-size:14px;*/
 	font-family: Arial, Ubuntu sans-serif;
 	background-color: #2D2D2D;
-	color: #7ff7f7;
+	color: #9FACA3;
 	padding-top: 60px;
 } 
-
-h1, h2, h3, h4, h5, h6 {
-	/*font-family:"Helvetica, Open Sans, Ubuntu, Arial, sans-serif";*/
-}
 
 hr {
 	background-color:#BBBBBB;
@@ -27,8 +21,6 @@ a:visited {
 }
 
 #page-wrapper {
-	/*background-color: #2D2D2D;*/
-	color: #9FACA3;
 	width: 100%;
 }
 
@@ -42,7 +34,6 @@ nav#top-nav {
 }
 
 button[data-target="#top-nav-collapse"] {
-	/*color: #FB8C00;*/
 	background-color: #2A2A2A;
 	color: #9FACA3;
 	border: 1px solid transparent;
@@ -107,7 +98,6 @@ nav#top-nav a.top-nav-link:active {
 
 nav#top-nav li.nav-item:hover a.top-nav-link {
 	color: #F7F7F7;
-	/*letter-spacing: 2px;*/
 	transition: all .26s ease;
 }
 
@@ -189,7 +179,6 @@ form#search-bar {
 	background-color: #AC6E77;
 	box-shadow: 0px 2px 4px #111111;
 	padding: 8px;
-	/*border-radius: 4px;*/
 }
 
 form#search-bar .input-group {
@@ -200,8 +189,6 @@ form#search-bar .input-group {
 form#search-bar input#search-bar-input {
 	background-color: #4D4D4D;
 	color: #F7F7F7;
-	/*border-color: #FB8C00;
-	border-right: none;*/
 	border: none;
 	height: 36px;
 }
@@ -215,7 +202,6 @@ form#search-bar #search-btn {
 	background-color: #2A2A2A;
 	color: #9FACA3;
 	border: none;
-	/*border-color: #FB8C00;*/
 	height: 36px;
 	outline: none;
 }
@@ -232,6 +218,7 @@ form#search-bar img#ddg-logo {
 }
 
 nav.main-nav {
+
 	padding-top: 8px;
 	padding-left: 8px;
 	padding-bottom: 0;
@@ -261,10 +248,6 @@ h2.main-nav-header {
 	transition: all .26s ease;
 }
 
-a.header-link {
-
-}
-
 a.header-link span.header-link-icon {
 	padding: 4px;
 	color: #AC6a11;
@@ -282,13 +265,12 @@ a.header-link span.header-link-icon {
 
 h2.main-nav-header p.main-nav-lead {
 	font-size: 14px; 
-	/*display: inline;*/
 	padding-top: 8px;
 	margin-bottom: 0;
 	/* Keeps the nav rows lead from moving when the headers
 	letter spacing increases and decreases using the 
-	transition property. The lead is a child of the header 
-	jb., so the letter spacing effects it as well. */
+	letter-spacing property. The lead is a child of the header, 
+	so the letter spacing effects it as well. */
 	letter-spacing: 0 !important;
 	color: #AC6E77;
 }
@@ -296,7 +278,7 @@ h2.main-nav-header p.main-nav-lead {
 h2.main-nav-header span.header-icon {
 	/* Keeps the header icon from moving when the headers
 	letter spacing increases and decreases using the 
-	transition property. The icon is a child of the header 
+	letter-spacing property. The icon is a child of the header 
 	element, so the letter spacing effects it as well. */
 	letter-spacing: 0 !important;
 	padding: 4px;
@@ -317,18 +299,6 @@ h2.main-nav-header span.header-icon {
 	    -ms-transition: all .26s ease;
 	     -o-transition: all .26s ease;
 	        transition: all .26s ease;
-}
-
-a.header-link {
-
-}
-
-a.header-link span.header-link-icon {
-
-}
-
-span[class="fa fa-link"] {
-	
 }
 
 .main-nav-links-container {
@@ -415,5 +385,4 @@ hr.medleft {
 .footer-below a.social-link .social-icon {
 	padding: 4px;
 	margin-left: 12px;
-	/*text-shadow: 0px 1px 4px #111111;*/
 }
